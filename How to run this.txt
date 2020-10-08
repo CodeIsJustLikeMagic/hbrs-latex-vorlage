@@ -1,0 +1,16 @@
+Mit TeXstudio als Editor:
+
+Options > Configure TeXstudio > Build > 
+Default Compiler "XeLaTex"
+und Default Bibliography Tool "Bibtex"
+
+
+BiB kompliieren indem: Auf Arbeit.tex BibTex ausfüht (Tools, Bibliography F8)
+und dann nochmal XeLaTex ausführen um die Änderung zu sehen
+
+Optional: Arbeit.tex öffnet und Options > Root Document > Set Current Document as Explicit Root 
+Dann wird egal welche Datei offen ist, immer Arbeit.tex kompiliert. 
+Wenn man eine andere tex Datei (beispielsweise einen Abschnitt) versucht zu kompilieren, bekommt man nur Fehler, weil der Kontext von Arbeit.tex ignoiert wird.
+
+In Meta.tex trägt man den Titel, den Authorennamen, etc. ein.
+
